@@ -2,10 +2,7 @@ import streamlit as st
 import numpy as np
 import joblib
 
-# Save the trained model to a file
-joblib.dump(model, 'logistic_regression_model.pkl')
-
-# Now you can load the model from the file
+#Now you can load the model from the file
 model = joblib.load('logistic_regression_model.pkl')
 
 # Streamlit app
