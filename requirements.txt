@@ -1,16 +1,6 @@
-import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-from sklearn.impute import SimpleImputer 
-from sklearn.linear_model import LogisticRegression
-
-!pip install mlflow
-
-import mlflow
-import mlflow.sklearn
-
-!pip install streamlit
-
-import streamlit as st
-import numpy as np
-import joblib
+pandas
+seaborn
+matplotlib
+scikit-learn
+streamlit
+joblib
