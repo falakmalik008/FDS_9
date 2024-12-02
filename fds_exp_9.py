@@ -19,6 +19,6 @@ CHEST_PAIN = st.number_input("CHEST PAIN")
 # Predict button
 if st.button("Predict"):
     # Indent the following lines within the 'if' block
-    input_data = np.array([[age, SMOKING, COUGHING, SHORTNESS OF BREATH, SWALLOWING DIFFICULTY, CHEST PAIN]])
+    input_data = np.array([[age, SMOKING, COUGHING, SHORTNESS_OF_BREATH, SWALLOWING_DIFFICULTY, CHEST_PAIN]])
     prediction = model.predict(input_data)[0]
     st.write("Prediction: Malignant" if prediction == 1 else "Prediction: Benign")
